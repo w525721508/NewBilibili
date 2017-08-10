@@ -1335,6 +1335,22 @@ public class IndexActivity extends AppCompatActivity implements IView {
  * Rentals Style风格的头部实现
  * 这个需要引入这两个类RentalsSunDrawable.java ; RentalsSunHeaderView.java
  * 在人家git上的daemon中能找到
+ * <p>
+ * StoreHouse风格的头部实现
+ * <p>
+ * Material Design风格的头部实现
+ * <p>
+ * Rentals Style风格的头部实现
+ * 这个需要引入这两个类RentalsSunDrawable.java ; RentalsSunHeaderView.java
+ * 在人家git上的daemon中能找到
+ * <p>
+ * StoreHouse风格的头部实现
+ * <p>
+ * Material Design风格的头部实现
+ * <p>
+ * Rentals Style风格的头部实现
+ * 这个需要引入这两个类RentalsSunDrawable.java ; RentalsSunHeaderView.java
+ * 在人家git上的daemon中能找到
  */
 //        final PtrClassicDefaultHeader header = new PtrClassicDefaultHeader(this);
 //        header.setPadding(0, PtrLocalDisplay.dp2px(15), 0, 0);

@@ -64,7 +64,8 @@ public class RecAdapter extends RecyclerView.Adapter<RecAdapter.ViewHolders> {
     //自定义的ViewHolder，持有每个Item的的所有界面元素
     public static class ViewHolders extends RecyclerView.ViewHolder {
         private Button btn;
-        private ImageView ivHeader, ivItemimage, ivDing, ivCai, ivPingLun, ivShare;
+        private ImageView ivHeader, ivItemimage, ivCai, ivPingLun, ivShare;
+        private bibi.com.newbilibili.main.view.SmileView ivDing;
         private TextView tvUserName, tvItemTitle, tvShareCount, tvCommentCount, tvBuryCount, tvStarCount;
         private JCVideoPlayerStandard vvVideo;
         private Context context;
@@ -91,7 +92,7 @@ public class RecAdapter extends RecyclerView.Adapter<RecAdapter.ViewHolders> {
             btn = (Button) view.findViewById(R.id.btn);
             ivHeader = (ImageView) view.findViewById(R.id.ivHeader);
             ivItemimage = (ImageView) view.findViewById(R.id.ivItemimage);
-            ivDing = (ImageView) view.findViewById(R.id.ivDing);
+            ivDing = (bibi.com.newbilibili.main.view.SmileView) view.findViewById(R.id.ivDing);
             ivCai = (ImageView) view.findViewById(R.id.ivCai);
             ivPingLun = (ImageView) view.findViewById(R.id.ivPingLun);
             ivShare = (ImageView) view.findViewById(R.id.ivShare);
@@ -102,7 +103,15 @@ public class RecAdapter extends RecyclerView.Adapter<RecAdapter.ViewHolders> {
             tvBuryCount = (TextView) view.findViewById(R.id.tvBuryCount);
             tvStarCount = (TextView) view.findViewById(R.id.tvStarCount);
             vvVideo = (JCVideoPlayerStandard) view.findViewById(R.id.vvVideo);
+            initListener();
+
+
         }
+
+        private void initListener() {
+            ivDing.setNum(60,40);
+        }
+
 
         public void initUi() {
             btn.setText(itemBean.getItemTitle());

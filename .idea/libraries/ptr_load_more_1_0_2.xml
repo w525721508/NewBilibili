@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ptr-load-more-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/c002d78bfbb18ba70f22b12600a54c3752e72f91/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c002d78bfbb18ba70f22b12600a54c3752e72f91/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ptr-load-more/1.0.2/be9d35305e09020dc9ea9d9205bbc0bdbb599862/ptr-load-more-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
